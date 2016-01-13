@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+	background: url(images/porch.jpg) no-repeat center center fixed;
+	background-size:cover;
+}
+
+header {
+	background: url("images/headerbg.jpg");
+	background-repeat: repeat-x repeat-y;
+	height:100%;
+	width: 300px;
+	position: fixed;
+	right:0;
+	text-align:center;
+	}
+	
+header img {
+	margin:50% auto auto 5px;
+	}
+
+section {
+	position:absolute;
+ 	top:50px;
+ 	left:100px;
+	}
+	
+article {
+	text-align:center;
+	width:500px;
+	margin: auto auto 20px 20px;
+	background:white;
+	padding:10px;
+	}
+	
+h2 {
+	font-size:30px;
+	font-family: century gothic,sans-serif;
+	}
+
+h3 {
+	font-size:18px;
+	font-family: century gothic,sans-serif;
+	margin-top:30px;
+	}
+
+footer {
+	width:1000px;	
+	margin:300px auto auto auto;
+	position:relative;
+	text-align:center;
+	padding-bottom:20px;
+	}
+
+	
+a:link {
+	text-decoration:none;
+	color: #6f665c;
+	}
+	
+a:visited {
+	text-decoration:none;
+	color: #6f665c;
+	}
+
+a:hover {
+	text-decoration:none;
+	color: #2f4d3e;
+	}
+
+a:active {
+	text-decoration:none;
+	color: #2f4d3e;
+	}
+p {
+	font-size:14px;
+	font-family: century gothic,sans-serif;
+	}
