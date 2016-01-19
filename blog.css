@@ -31,10 +31,14 @@ section {
 article {
 	text-align:center;
 	width:500px;
-	margin: auto auto 20px 20px;
+	margin: auto auto 70px 20px;
 	background:white;
-	padding:10px;
+	padding:20px;
 	}
+
+article img {
+    margin: 15px auto 15px auto;
+}
 	
 h2 {
 	font-size:30px;
@@ -58,12 +62,12 @@ footer {
 	
 a:link {
 	text-decoration:none;
-	color: #6f665c;
+	color: #9c8e7d;
 	}
 	
 a:visited {
 	text-decoration:none;
-	color: #6f665c;
+	color: #9c8e7d;
 	}
 
 a:hover {
