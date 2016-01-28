@@ -10,7 +10,7 @@ html {
 
 header {
 	background: url("images/headerbg.jpg");
-	background-repeat: repeat-x repeat-y;
+	background-repeat: repeat;
 	height:100%;
 	width: 300px;
 	position: fixed;
@@ -38,6 +38,7 @@ article {
 
 article img {
     margin: 15px auto 15px auto;
+    width:500px;
 }
 	
 h2 {
@@ -46,10 +47,22 @@ h2 {
 	}
 
 h3 {
-	font-size:18px;
+	font-size:20px;
 	font-family: century gothic,sans-serif;
 	margin-top:30px;
 	}
+
+h4 {
+	font-size:20px;
+	font-family: century gothic,sans-serif;
+    margin-top:10px;
+	}
+
+h5 {
+    font-family: century gothic,sans-serif;
+    color:gray;
+    font-style:italic;
+}
 
 footer {
 	width:1000px;	
