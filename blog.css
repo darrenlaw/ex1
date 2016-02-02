@@ -46,6 +46,7 @@ article h2,h4,h5 {
 article img {
     margin: 15px auto 15px auto;
     width:500px;
+    display:block;
 }
 	
 h2 {
