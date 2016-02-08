@@ -22,6 +22,37 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-family: avenir, century gothic, sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-left:40px;
+}
+#nflist {
+    width:410px;
+    margin-left:40px;
+    float: left;
+}
+
+li {
+    font-family: avenir, century gothic, sans-serif;
+    margin-top:10px;
+    margin-left:15px;
+}
+
+#nfimg {
+    float:left;
+    width:700px;
+}
+#nfimg li {
+    list-style-type: none;
+    display:inline;
+}
+
+#nfimg li img{
+    height:160px;
+    width:300px;
+}
 section {
     position: relative;
     width: 1200px;
