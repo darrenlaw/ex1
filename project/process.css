@@ -93,3 +93,8 @@ figure {
     text-align: center;
     margin-bottom:20px;
 }
+
+img.storyboard {
+    width:300px;
+    margin-left: 80px;
+}
