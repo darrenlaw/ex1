@@ -10,6 +10,7 @@ body {
 	margin:auto;
 	opacity:0.7;
 	transition:1s;
+    height:700px;
 	}
 
 body:hover {
@@ -20,7 +21,7 @@ body:hover {
 #exercises {
 	width: 300px;
 	float:left;
-	margin-left:330px;
+	margin-left:80px;
 	}
 	
 #assignments {
@@ -31,7 +32,7 @@ body:hover {
 header {
 	width: 800px;
 	height: 250px;
-	margin:10px auto auto auto;
+	margin:50px auto auto auto;
 	}
 	
 section {
@@ -64,15 +65,11 @@ h3 {
 	}
 
 footer {
-	width:1000px;	
-	margin:250px auto auto auto;
-	position:relative;
+	width:200px;	
+	margin:50px auto auto 800px;
+	position:absolute;
 	text-align:center;
 	padding-bottom:20px;
-	}
-
-#email {
-	margin-left:690px;
 	}
 	
 a:link {
