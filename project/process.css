@@ -87,3 +87,9 @@ p {
 img {
     width:500px;
 }
+
+figure {
+    width:1100px;
+    text-align: center;
+    margin-bottom:20px;
+}
