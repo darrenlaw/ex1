@@ -100,6 +100,22 @@ figure {
     margin-bottom:20px;
 }
 
+figure.prototype{
+    width:500px;
+    text-align: center;
+    float:left;
+    margin-left:100px;
+}
+
+.sidetext {
+    background:white;
+    width:400px;
+    float:left;
+    margin-left: 100px;
+    height:420px;
+    padding:20px;   
+}
+
 img.storyboard {
     width:300px;
     margin-left: 80px;
