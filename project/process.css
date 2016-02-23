@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color:#c3d8da;
+    background-color:#042530;
 }
 
 header {
@@ -29,9 +29,13 @@ h2 {
     margin-left:40px;
 }
 #nflist {
-    width:410px;
+    width:300px;
     margin-left:40px;
+    margin-right:100px;
+    margin-top:20px;
     float: left;
+    background:white;
+    padding:20px;
 }
 
 li {
@@ -67,6 +71,8 @@ p {
 .essay {
     text-align: center;
     width: 660px;
+    background: white;
+    padding:20px;
     position: relative;
     margin: auto auto 20px auto;
 }
