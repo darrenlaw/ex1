@@ -1,6 +1,7 @@
 html {
-	background: url(images/background.jpg) no-repeat center center fixed;
+	background-color: #042530;
 	background-size:cover;
+    height: 100%;
 }
 
 body {
@@ -8,14 +9,7 @@ body {
 	width: 1000px;
 	position: relative;
 	margin:auto;
-	opacity:0.7;
-	transition:1s;
-    height:700px;
-	}
-
-body:hover {
-	opacity:1;
-	transition:1s;
+    height:100%;
 	}
 
 #exercises {
@@ -32,31 +26,51 @@ body:hover {
 header {
 	width: 800px;
 	height: 250px;
-	margin:50px auto auto auto;
+	margin:auto;
 	}
 	
 section {
-	margin: 50px auto auto auto;
+	margin: 30px auto auto auto;
 	width: 1000px;
 	position:relative;
 	}
+
+section h1 {
+    margin-top:20px;
+}
 
 li {
 	font-size:16px;
 	font-family: "century gothic",sans-serif;
 	}
 
+#exercises ol {
+    color: #32738b;
+}
+
+#assignments li {
+    list-style-type: none;
+}
+
+#assignments li:before {
+    content: "•";
+    color: #32738b;
+    padding-right:7px;
+}
+
 h1 {
-	margin-top:-30px;
 	font-size:35px;
 	margin-left:97px;
 	font-family: "century gothic",sans-serif;
+    color: #105171;
 	}
 	
 h2 {
 	font-size:24px;
 	margin-left:17px;
 	font-family: "century gothic",sans-serif;
+    margin-top: 0px;
+    color: #aa3f7c;
 	}
 
 h3 {
@@ -66,7 +80,7 @@ h3 {
 
 footer {
 	width:200px;	
-	margin:50px auto auto 800px;
+	margin:50px auto auto 750px;
 	position:absolute;
 	text-align:center;
 	padding-bottom:20px;
@@ -74,20 +88,20 @@ footer {
 	
 a:link {
 	text-decoration:none;
-	color: #868c3f;
+	color: #083c56;
 	}
 	
 a:visited {
 	text-decoration:none;
-	color: #868c3f;
+	color: #083c56;
 	}
 
 a:hover {
 	text-decoration:none;
-	color: #6e98d8;
+	color: #3f849b;
 	}
 
 a:active {
 	text-decoration:none;
-	color: #6e98d8;
+	color: #083c56;
 	}
