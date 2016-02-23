@@ -1,17 +1,14 @@
 html {
 	background-color: #042530;
 	background-size:cover;
-    min-height: 100%;
-    height:100%;
 }
 
 body {
 	background: white;
 	width: 1000px;
 	position: relative;
-	margin:auto;
-    height:100%;
-    padding-bottom:40px;
+	margin:50px auto 50px auto;
+    height:830px;
 	}
 
 #exercises {
