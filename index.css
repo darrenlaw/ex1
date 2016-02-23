@@ -1,8 +1,9 @@
+html,body{min-height:100%;}
+
 html {
 	background-color: #042530;
 	background-size:cover;
     height: 100%;
-    min-height: 100%;
 }
 
 body {
