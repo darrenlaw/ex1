@@ -10,7 +10,7 @@ $(document).ready(function () {
     $(window).ready(function () {
         
         $('#interactive').click(function () {
-                                alert("Hello! My game is a click-based exploration game. It's not very complete yet, but here are your tasks! 1. Figure out how to move to different areas/scene of the game. 2. Learn one thing about art from the game. 3.Make it to the end of the game. GOOD LUCK!");
+                                alert("Hello! My game is a click-based exploration game. PLEASE READ THE INSTRUCTIONS from the main menu first since the game is not very complete yet. Here are your tasks! 1. Figure out how to move to different areas/scene of the game. 2. Discover the definition of a word. 3.Make it to the studio. These will also be on a word document that is already opened. Please remember to fill out the questionnaire that is also opened. Thank you!");
         
         });
     });
